@@ -1,7 +1,11 @@
 {
   "name": "calendar-2d",
   "version": "1.0.0",
-  "description": "The function accepts a year and month index as input, and returns a visually appealing two-dimensional array representing a calendar, where each array element corresponds to a week. The function cleverly handles non-existent days by including them in the array as null values. This makes the calendar a perfect tool for displaying dates, as it's clear and easy to read.  ",
+  "description": "The function accepts a year and month index as input, and returns a visually appealing two-dimensional array representing a calendar, where each array element corresponds to a week. The function cleverly handles non-existent days by including them in the array as null values. This makes the calendar a perfect tool for displaying dates, as it's clear and easy to read.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshmnair/calendar-2D.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
