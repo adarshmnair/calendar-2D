@@ -1,4 +1,14 @@
 function createCalendar(year, month) {
+  if (
+    year === undefined ||
+    month === undefined ||
+    Number.isInteger(year) === null ||
+    Number.isInteger(month) === null
+  ) {
+    throw new Error(
+      "Please provide a valid year and month! (should be integers)"
+    );
+  }
   const firstDayOfMonth = new Date(year, month, 1).getDay();
   const lastDateOfMonth = new Date(year, month + 1, 0).getDate();
   const calendar = [];
