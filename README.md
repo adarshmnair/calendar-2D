@@ -7,7 +7,7 @@ Calendar 2D is an npm package that accepts a year and month index as input, and 
 You can install Create Calendar using npm:
 
 ```shell
-npm install create-calendar
+npm install calendar-2d
 ```
 
 # Usage
@@ -15,7 +15,7 @@ npm install create-calendar
 To use Create Calendar, simply import the function and call it with a year and month index as arguments:
 
 ```javascript
-const createCalendar = require("create-calendar");
+const createCalendar = require("calendar-2d");
 ```
 
 ```javascript
